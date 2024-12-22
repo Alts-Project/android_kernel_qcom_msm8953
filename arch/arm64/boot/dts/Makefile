@@ -24,6 +24,7 @@ subdir-y += socionext
 subdir-y += sprd
 subdir-y += synaptics
 subdir-y += ti
+subdir-y += xiaomi-msm8953
 subdir-y += xilinx
 subdir-y += zte
 
