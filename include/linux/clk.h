@@ -914,7 +914,6 @@ static inline void clk_bulk_disable_unprepare(int num_clks,
 	clk_bulk_unprepare(num_clks, clks);
 }
 
-<<<<<<< HEAD
 /**
  * clk_get_optional - lookup and obtain a reference to an optional clock
  *		      producer.
@@ -934,10 +933,7 @@ static inline struct clk *clk_get_optional(struct device *dev, const char *id)
 	return clk;
 }
 
-#if defined(CONFIG_OF) && defined(CONFIG_COMMON_CLK)
-=======
 #if defined(CONFIG_OF)
->>>>>>> 9e199eae505b (clk: msm: port snapshot of clock framework files)
 struct clk *of_clk_get(struct device_node *np, int index);
 struct clk *of_clk_get_by_name(struct device_node *np, const char *name);
 struct clk *of_clk_get_from_provider(struct of_phandle_args *clkspec);
